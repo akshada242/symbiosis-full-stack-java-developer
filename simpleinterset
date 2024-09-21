@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Simpleinterset {
+	public static void main(String[] args) {
+		int p,r,n;
+		float Si;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the value of principle");
+		
+			p=sc.nextInt();
+			System.out.println("enter the value of rate");
+			r=sc.nextInt();
+			System.out.println("enter the value of no of year");
+			n=sc.nextInt();
+			Si=p*r*n;
+			System.out.println("the simple interset is="+Si);
+			
+			
+			
+
+			
+
+}
+}
